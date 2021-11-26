@@ -2,12 +2,12 @@ package ru.skypro;
 
 public class Main {
     public static void main(String[] args) {
-//  HomeWorkEasy1();
-//  HomeWorkEasy2();
+  HomeWorkEasy1();
+  HomeWorkEasy2();
 //  HomeWorkEasy3();
 //  HomeWorkEasy3_1();
-//  HomeWorkEasy4();
-//  HomeWorkEasy5();
+  HomeWorkEasy4();
+  HomeWorkEasy5();
 //  HomeWorkHard6();
 //  HomeWorkHard7();
 
@@ -41,19 +41,19 @@ public class Main {
         }
     }
 
-    public static void HomeWorkEasy3() {
-        System.out.println("HomeWork3. Exercise3.");
-        int year = 1604;
-        int leapYear = 1600;
-        int conditionLeapYear1 = leapYear + 4;
+//    public static void HomeWorkEasy3() {
+//        System.out.println("HomeWork3. Exercise3.");
+//        int year = 1604;
+//        int leapYear = 1600;
+//        int conditionLeapYear1 = leapYear + 4;
         //int conditionLeapYear2 = leapYear + 400;
         //boolean isYearLeapYear = year == conditionLeapYear1 && year == conditionLeapYear2;
-           if (year == leapYear && year == conditionLeapYear1) {    // && year == leapYear + 400
-               System.out.println(year + " год является високосным");
-           } else {    //(year == leapYear + 100 && year == leapYear + 200 && year == leapYear + 300)
-               System.out.println(year + " год не является високосным");
-           }
-    }
+//          if (year == leapYear && year == conditionLeapYear1) {    // && year == leapYear + 400
+//               System.out.println(year + " год является високосным");
+//           } else {    //(year == leapYear + 100 && year == leapYear + 200 && year == leapYear + 300)
+//               System.out.println(year + " год не является високосным");
+//           }
+//    }
 
     public static void HomeWorkEasy4() {
         System.out.println("HomeWork3. Exercise4.");
