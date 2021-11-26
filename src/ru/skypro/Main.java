@@ -14,7 +14,6 @@ public class Main {
     }
 //    public static void HomeWorkEasy4() {
 //        System.out.println("HomeWork2. Exercise4.");
-
 //    }
     public static void HomeWorkEasy1() {
         System.out.println("HomeWork3. Exercise 1.");
