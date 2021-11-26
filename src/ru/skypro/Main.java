@@ -7,7 +7,7 @@ public class Main {
 //  HomeWorkEasy3();
 //  HomeWorkEasy3_1();
 //  HomeWorkEasy4();
-  HomeWorkEasy5();
+//  HomeWorkEasy5();
 //  HomeWorkHard6();
 //  HomeWorkHard7();
 
