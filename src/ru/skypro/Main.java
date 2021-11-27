@@ -2,22 +2,19 @@ package ru.skypro;
 
 public class Main {
     public static void main(String[] args) {
-//  HomeWork3Easy1();
-//  HomeWork3Easy2();
+    HomeWork3Easy1();
+    HomeWork3Easy2();
 //  HomeWork3Easy2_1();
     HomeWork3Easy3();
 //  HomeWorkEasy3_1();
-//  HomeWork3Easy4();
+    HomeWork3Easy4();
 //  HomeWork3Easy4_1();
-//  HomeWork3Easy5();
-//  HomeWorkHard6();
-//  HomeWorkHard7();
+    HomeWork3Easy5();
+//  HomeWork3Hard6();
+//  HomeWork3Hard7();
 
     }
 
-    //    public static void HomeWorkEasy4() {
-//        System.out.println("HomeWork2. Exercise4.");
-//    }
     public static void HomeWork3Easy1() {
         System.out.println("HomeWork3. Exercise 1.");
         int clientOS = 1;
@@ -124,8 +121,6 @@ public class Main {
                System.out.println("Потребуется дней: " + km60_100 + " суток");
            }
     }
-
-
 
         public static void HomeWork3Easy5() {
             System.out.println("HomeWork3. Exercise5.");
