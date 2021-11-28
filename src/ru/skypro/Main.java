@@ -26,7 +26,7 @@ public class Main {
             }
         }
 
-    public static void HomeWork3Easy2() {
+    public static void HomeWork3Easy2_2() {
         System.out.println("HomeWork3. Exercise 2.");
         int clientDeviceYear = 2034;         // Выберите год производства девайса
         int clientOS = 0;                    // Выберите девайс: 0 - iOS, 1 - Android
@@ -41,6 +41,22 @@ public class Main {
             System.out.println("Установите версию для iOS");
         } else
         if (clientDeviceYear > 2015 && clientOS == 1) {
+            System.out.println("Установите версию для Android");
+        }
+    }
+
+    public static void HomeWork3Easy2() {
+        System.out.println("HomeWork3. Exercise 2.");
+        int clientDeviceYear = 2016;         // Выберите год производства девайса
+        int clientOS = 1;                    // Выберите девайс: 0 - iOS, 1 - Android
+        boolean isLiteNeeded = clientDeviceYear < 2015;
+        if (isLiteNeeded && clientOS == 0) {
+            System.out.println("Установите Lite-версию для iOS по ссылке");
+        } else if (isLiteNeeded && clientOS == 1) {
+            System.out.println("Установите Lite-версию для Android по ссылке");
+        } else if (clientDeviceYear > 2015 && clientOS == 0) {
+            System.out.println("Установите версию для iOS");
+        } else {
             System.out.println("Установите версию для Android");
         }
     }
@@ -60,8 +76,8 @@ public class Main {
 
     public static void HomeWork3Easy3() {
         System.out.println("HomeWork3. Exercise3.");
-        int year = 1600;
-        if (year % 4 == 0 && year % 400 == 0 || year % 100 != 0){
+        int year = 2400;
+        if (year % 4 == 0 && (year % 400 == 0 || year % 100 != 0)) {
             System.out.println(year + " год является високосным");
         } else {
             System.out.println(year + " год не является високосным");
